@@ -12,14 +12,14 @@ a {
 /* ============================================= */
 /* ==================NavBar===================== */
 
-.bg-dark {
-  background-color: #343a40 !important;
+.navbar {
+  background-color: #343a40;
 }
 
 /* ============================================= */
 /* ==================Carousel=================== */
 
-h5 {
+.carousel-text {
   font-weight: 400;
   line-height: 28px;
 }
@@ -61,11 +61,7 @@ h5 {
 /* ============================================= */
 /* ================== Infos ==================== */
 
-hr {
-  margin-bottom: 80px;
-}
-
-h2 {
+.card-info-title {
   font-size: 50px;
   line-height: 50px;
   font-weight: 400;
