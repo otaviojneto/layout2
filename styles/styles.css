@@ -1,0 +1,101 @@
+/* ====================GLOBAL=======================*/
+/*==================================================*/
+
+html {
+  font-family: "Segoe UI", Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ============================================= */
+/* ==================NavBar===================== */
+
+.bg-dark {
+  background-color: #343a40 !important;
+}
+
+/* ============================================= */
+/* ==================Carousel=================== */
+
+h5 {
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.carousel {
+  margin-bottom: 64px;
+}
+
+.btn-lg {
+  margin-bottom: 58px;
+}
+
+/* ============================================= */
+/* ================== Cards ==================== */
+
+.card-circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.card-circle .rounded-circle {
+  height: 140px;
+  max-width: 140px;
+}
+
+.card-body {
+  max-width: 340px;
+  text-align: center;
+  margin-top: -136px;
+}
+
+.card-body .card-title {
+  font-weight: 400;
+}
+
+/* ============================================= */
+/* ================== Infos ==================== */
+
+hr {
+  margin-bottom: 80px;
+}
+
+h2 {
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 400;
+  color: #5a5a5a;
+  margin-top: 120px;
+}
+
+.img-fluid {
+  width: 500px;
+  height: 500px;
+}
+
+.inverter {
+  border-top: 1px solid #e5e5e5;
+  padding: 80px 0;
+}
+
+@media (min-width: 768px) {
+  .inverter:nth-child(even) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+/* ============================================= */
+/* ================== Footer =================== */
+
+.f-right {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #e5e5e5;
+  padding: 64px 0 40px 0;
+}
